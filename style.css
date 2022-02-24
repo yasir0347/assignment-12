@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+}
+
+.btn{
+    margin: 30px;
+}
+
+.navbar{
+    display: flex;
+    margin: 15px;
+    color: #65735B;
+}
+
+li{
+    padding: 20px;
+    list-style: none;
+}
+img{
+    padding: 35px;
+}
+
+.button{
+    /* border: 1px solid black; */
+    padding: 0 15px 0 15px;
+}
+
+#signup{
+    border-radius: 40%;
+    color: white;
+    background-color: #14a800;
+}
+
+#login{
+    color: grey;
+    background-color: white;
+}
+
+.ul{
+    /* border: 2px solid red; */
+    color:grey ;
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.heading{
+    font-size: xx-large;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 170px;
+    margin: 20px;
+    color: #50A907;
+    
+}
+
+.para{
+    font-size: x-large;
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: 20px;
+    color: #65735B;
+}
+
+.button2{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: 20px;
+    width: 50%;
+    padding: 20px;
+}
+#findtalent{
+    border-radius: 35%;
+    width: 140px;
+    background-color: #50A907;
+    color: white;
+    border: none;
+}
+#findwork{
+    border-radius: 35%;
+    width: 140px;
+    color: #14a800;
+    background-color: white;
+    border: 1px solid #14a800;
+}
+
+.image{
+    border: 2px solid red;
+    width: 50%;
+    margin: -26% 0 20% 50%;
+    padding: 12px;
+}
+#position{
+    max-inline-size: 500px;
+}
